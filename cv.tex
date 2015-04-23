@@ -1,0 +1,114 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+\moderncvstyle{classic}
+\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{bibentry}
+\usepackage{verbatim}
+
+\usepackage[top=1.2in, bottom=1.5in, left=1.3in, right=1.3in]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+
+\renewcommand*{\namefont}{\fontsize{24}{26}\mdseries\upshape} % set name size
+
+\definecolor{UniBlue}{RGB}{83,121,190}
+\newcommand{\strong}[1]{{\color{UniBlue}\textbf{#1}}}
+\newcommand{\HRule}{{\color{UniBlue}\rule{\linewidth}{0.3mm}}}
+\renewcommand{\section}[1]{\vspace{1cm}{\Large\strong{#1}} \\[0.005mm] \HRule \\ \vspace{-0.3cm}}
+
+% personal data
+\firstname{\strong{Alexander}}
+\familyname{\strong{Samoilov}}
+%\name{Alexander}{Samoilov}
+\mobile{+7~(909)~658~1206}
+\email{alexander.samoilov@gmail.com}
+\social[github]{https://github.com/alsam}
+\social[linkedin]{https://ru.linkedin.com/pub/alexander-samoilov/13/681/945}
+%\skype{alexsam2718}
+
+%% \makeatletter
+%% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%% \makeatother
+
+\begin{document}
+\makecvtitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-1cm}
+\section{Education}
+
+\cventry{'1982 -- '1987}{Moscow State University}{Department of Mathematics and Mechanics}{Moscow}{}{Chair specialization: Gas and Wave Dynamics. \newline
+  \textbf{Grades}  \emph{95\%} Overall}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{\strong{Experience}}
+
+\cventry{December '14 -- Present}{Principal Engineer for Advanced Projects}
+    {{\bfseries{Huawei Corp}}\ \httplink[http://www.huawei.com]{www.huawei.com}}{Moscow}{}{
+  projects for Domain-Specific Languages for GPU programming based on: \\
+  \emph{Delite} - \httplink[http://stanford-ppl.github.io/Delite]{stanford-ppl.github.io/Delite} \\
+  \emph{Scalan} - \link[https://github.com/scalan]{https://github.com/scalan} \\
+}
+
+\cventry{July 2010 -- December '14\\ 4.5 years}{Performance Architect}
+    {{\bfseries{NVidia}}\ \httplink[http://www.nvidia.com]{www.nvidia.com}}{Moscow}{}{
+  Worked on performance simulators for future GPU architectures. \\
+  GPU architectures study and writing codes for simulating virtual memory -- TLB cache study. \\
+  Performance study of High-Performance Computing applications for Computational Fluid Dynamics, Quantum Physics, Molecular Dynamics. \\
+}
+
+\cventry{April 2007 -- June 2010 \\ 3 years, 3 months}{Sr.Software Engineer}
+    {{\bfseries{Cadence Design Systems}}\ \httplink[http://www.cadence.com]{www.cadence.com}}{Moscow}{}{
+  Support and development for Cadence products for Electronic Design Automation of VLSI. \\
+  Some projects: \\
+  \emph{QCAP support} - Cadence product tool for RC parasitic extraction. Bug fixing and further development to support {\em{FINFET}} technology process. \\
+  \emph{SNASND acceleration} - a tool for substrate noise analysis was accelerated in more than 50 times by improving algorithm for solving large sparse matrices. The result was reported on TECCI 2009 conference. \\
+  \emph{Electrostatic BEM/FEM field solvers} - tuned SVD low-rank matrices approximation approach for achieving acceleration without loss of precision. \\
+}
+
+\cventry{August 2003 -- March 2007 \\ 3.5 years}{Sr.CAD Engineer}
+    {{\bfseries{Intel Corp.}}\ \httplink[http://www.intel.com]{www.intel.com}}{Moscow}{}{
+    Research worker for Strategic CAD Labs. \\
+    Experimental flow for future processor design technologies. \\
+    Some of the projects: \\
+    \emph{Timing-Driven Routing} - participated in the project led by Dr. Priyadarsan Patra. \\
+    Honored for the project. \\
+    \emph{Dynamic power estimation} - proposed original approach using Bayesian Nets for estimating switching activity. \\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\clearpage
+\medskip
+\section{\strong{Skills}}
+
+\cvitem{\textbf{CPU and GPU Architecture}}{deep knowledge of modern CPU architecture, especially NVidia GPUs, modern pipeline architectures, caches, TLBs \smallskip\newline
+}
+
+\cvitem{\textbf{Algorithms: numeric and for discrete optimization}}{mastered in modern algorithms including NP-hard, graduated from Coursera course for discrete optimization, have experience in implementing numerical algorithms for Computational Fluid Dynamics including porting to parallel architectures. \smallskip\newline
+}
+
+\cvitem{\textbf{Programming}}{Preferred: C, C++, Scala, Fortran, Bash, Python, Perl, {\bfseries{CUDA}}, MPI \smallskip\newline
+  Exposure: Haskell, Rust }
+\medskip
+\cvitem{\textbf{Tools}}{Linux, Emacs, Eclipse, IntelliJ, Ant, Ivy, Maven,
+  Autotools, CMake, Make, Git, Subversion, Perforce
+}
+\medskip
+\cvitem{\textbf{Languages}}{Russian (Native), English (fluent)}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INTERESTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{\strong{Interests}}
+
+\cvitem{\textbf{Books}}{}
+\medskip
+\cvitem{\textbf{Traveling}}{}
+
+
+\end{document}
