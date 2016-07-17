@@ -2,5 +2,5 @@
 my cv
 
 # requires
-+ pdflatex
++ `pdflatex` or `xelatex`
 + [Modern CV](http://www.ctan.org/pkg/moderncv)
